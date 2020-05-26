@@ -4,7 +4,7 @@ const URL="https://covid19.mathdro.id/api";
 
 let app=angular.module('MyApp',[]);
 app.controller('MyCtrl',($scope,$http)=>{
-	$scope.title="Stay Home,Save Lifes";
+	$scope.title="Stay Home,Save Lives";
 	$http.get(URL).then((response)=>{
 		
 		$scope.all_data=response.data;
