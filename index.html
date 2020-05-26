@@ -3,6 +3,12 @@
 <html>
 <head>
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="ISO-8859-1">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- css -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <!-- css end -->
@@ -101,7 +107,7 @@
 <div class="col-md-3">
 <div class="card bg-warning text-white">
 <div class="card-body">
-<h3>Confirmed </h3>
+<h3>Confirmed Cases</h3>
 <h3>{{s_data.data[0].confirmed}}</h3>
 </div>
 </div>
@@ -110,7 +116,7 @@
 <div class="col-md-3">
 <div class="card bg-success text-white">
 <div class="card-body">
-<h3>Recovered </h3>
+<h3>Recovered Cases</h3>
 <h3>{{s_data.data[0].cured}}</h3></div>
 </div>
 </div>
@@ -118,7 +124,7 @@
 <div class="col-md-3 ">
 <div class="card bg-danger text-white" >
 <div class="card-body">
-<h3>Death </h3>
+<h3>Death Cases</h3>
 <h3>{{s_data.data[0].death}}</h3></div>
 </div>
 </div>
@@ -126,7 +132,7 @@
 <div class="col-md-3 ">
 <div class="card bg-danger text-white" >
 <div class="card-body">
-<h3>Total </h3>
+<h3>Total Cases</h3>
 <h3>{{s_data.data[0].total}}</h3></div>
 </div>
 </div>
